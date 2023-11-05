@@ -96,7 +96,7 @@ def computer_move(board, computer, human):
     # копируем доску
     board = board[:]
     BEST_MOVES = (4,0,2,6,8,1,3,5,7)
-    print("Поле", end=" ")
+    print("Поле", end=" ")10
     
     for move in legal_moves(board):
         board[move] = computer
