@@ -3,3 +3,5 @@ jupyter
 PyYAML
 cryptography
 fire
+molotov
+flask
