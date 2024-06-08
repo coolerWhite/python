@@ -1,0 +1,12 @@
+ dpkg-buildpackage -us -uc -ui -i -b
+dpkg-buildpackage: info: source package hello-world
+dpkg-buildpackage: info: source version 0.0.1
+dpkg-buildpackage: info: source distribution stable
+dpkg-buildpackage: info: source changed by One One <one@one.com>
+ dpkg-source -i --before-build .
+dpkg-buildpackage: info: host architecture amd64
+dpkg-source: warning: can't parse dependency dh-python
+python3-all
+python3-setuptools
+dpkg-source: error: cannot parse Build-Depends field
+dpkg-buildpackage: error: dpkg-source -i --before-build . subprocess returned exit status 25

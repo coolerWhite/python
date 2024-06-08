@@ -5,3 +5,7 @@ cryptography
 fire
 molotov
 flask
+
+# Chapter 5
+setuptools
+twine
