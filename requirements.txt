@@ -9,3 +9,6 @@ flask
 # Chapter 5
 setuptools
 twine
+
+# Chapter 7
+prometheus_client
