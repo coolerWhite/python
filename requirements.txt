@@ -12,3 +12,7 @@ twine
 
 # Chapter 7
 prometheus_client
+
+# Chapter 8
+pytest
+pytest-testinfra
