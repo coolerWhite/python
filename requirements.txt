@@ -16,3 +16,6 @@ prometheus_client
 # Chapter 8
 pytest
 pytest-testinfra
+
+# SELF
+pandas
